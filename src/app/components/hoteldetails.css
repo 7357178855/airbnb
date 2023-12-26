@@ -1,0 +1,198 @@
+.fullimages{
+    width: 80vw;
+    margin: auto;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.h2heading{
+    width: 80vw;
+    margin: auto;
+}
+
+.firstimage{
+    width: 40vw;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* margin: 1vw; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.middleimages div{
+    height: 195px;
+    object-fit: contain;
+    overflow: hidden;
+    /* background-color: wheat; */
+}
+.middleimages div img{
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  /* position: absolute; Position the image absolutely within the container */
+  top: 0;
+  left: 0;
+}
+
+.firstimage img{
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    /* position: absolute; Position the image absolutely within the container */
+    top: 0;
+    left: 0;
+  }
+.lastimages div img{
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    /* position: absolute; Position the image absolutely within the container */
+    top: 0;
+    left: 0;
+  }
+.lastimages div{
+    height: 195px;
+    object-fit: cover;
+    overflow: hidden;
+    /* background-color: wheat; */
+}
+.topbox{
+    padding: 20px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 60%;
+}
+.bottombox{
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+    width: 60%;
+}
+.middleimages{
+    width: 18vw;
+    height: 400px;
+    /* background-color: red; */
+    margin: 0 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lastimages{
+    width: 20vw;
+    height: 400px;
+    /* background-color:blue; */
+    /* margin: 1vw; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+
+.leftinnerimage{
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+    margin: 20px;
+
+}
+.rightinnerbox{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.innerbox{
+    width: 60%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* background-color: blue; */
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
+}
+.imageandtext h3{
+    margin: 10px;
+}
+
+.offer2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    /* background-color: blue; */
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.imageandtext{
+    width: 40%;
+}
+.imageandtext div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.imageandtext div p{
+    margin: 10px 20px;
+}
+.mapdiv{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width:800px) {
+    .offer{
+        width: 100%;
+    }
+    .topbox{
+        width: 100%;
+    }
+    .navcenter{
+        display: none;
+    }
+    .middleimages{
+        display: none;
+    }
+    .lastimages{
+        display: none;
+    }
+    .firstimage{
+        width: 80vw;
+       
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+    }
+    
+}

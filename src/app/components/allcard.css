@@ -1,0 +1,143 @@
+.allcards{
+    width: 96vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* allcard.css */
+.allcard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  hr {
+    border: 0.5px solid #efefef;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* FilterModal.css */
+  .filter-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .filter-modal input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .filter-modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .filter-modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filterdiv{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+    position: sticky;
+    top: 80px;
+  }
+  .filterbutton button{
+    width: 100px;
+    height: 40px;
+    color: rgb(69, 69, 69);
+    font-size: 12px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid rgb(227, 227, 227);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .load-more-button button{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+    
+
+  }
+  .load-more-button{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .filterbutton button{
+      display: none !important;
+    }
+    .filterdiv{
+      /* background-color: red; */
+      width: 98vw;
+      margin: auto;
+    }
+    .filter-options-container {
+      width: 98vw !important;
+    }
+    
+
+
+  }

@@ -1,0 +1,146 @@
+/* FilterOptions.css */
+.filter-options-container {
+    width: 60vw;
+    height: 90px;
+    /* background-color: gray; */
+    overflow-x: auto;
+    white-space: nowrap;
+    /* margin-left: 10vw; */
+    overflow-y: hidden;
+  }
+  
+  .filter-options {
+    display: flex;
+    scroll-behavior: smooth; 
+   
+  }
+  
+  .filter-option {
+    min-width: 60px !important;
+    padding: 8px 12px;
+    margin: 4px;
+    /* background-color: #eee; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .filter-option p{
+    color: grey;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .filter-option:hover {
+    /* background-color: #ddd; */
+  }
+  /* TypeIconMap{
+    background-color: red;
+  }
+   */
+
+   /* FilterOptions.css */
+
+.filter-options-container {
+  overflow: hidden;
+  position: relative; /* Added for positioning the scroll buttons */
+}
+
+.filter-options {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.filter-option {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-text {
+  margin-top: 5px;
+}
+
+/* Added styles for scroll buttons */
+.scroll-button {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.scroll-button-left {
+  left: 0;
+}
+
+.scroll-button-right {
+  right: 0;
+}
+
+
+
+/* FilterModal.css */
+.filter-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-modal h2 {
+  margin-bottom: 20px;
+}
+
+.filter-modal label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filter-modal input,
+.filter-modal select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-modal button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.filter-modal button:hover {
+  background-color: #0056b3;
+}
+.completefilter{
+  width: 100vw !important;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 81px;
+}

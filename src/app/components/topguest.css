@@ -1,0 +1,17 @@
+.guestdiv{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .guestdiv{
+        display: none;
+    }
+}

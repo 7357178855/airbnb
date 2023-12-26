@@ -1,0 +1,49 @@
+.carddetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.carddetails p{
+    margin: 4px;
+}
+.cardimage{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    object-fit: cover;
+    overflow: hidden;
+}
+.cardimage img{
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    /* position: absolute; Position the image absolutely within the container */
+    top: 0;
+    left: 0;
+  }
+.fullcard{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    /* background-color: rgb(247, 247, 247); */
+    min-height: 400px;
+}
+.sameline{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.linki{
+    color: black;
+    text-decoration: underline;
+}
+.linki :hover{
+    color: red !important;
+}
