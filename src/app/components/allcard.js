@@ -48,11 +48,7 @@ export default function Allcard() {
     setVisibleHotels((prevVisibleHotels) => prevVisibleHotels + 10);
   };
 
-  const handleCardClick = (hotelId) => {
-    // Open a new tab with details of the clicked hotel
-    const hotelDetailsUrl = `/hotel-details/${hotelId}`; // Replace with your actual URL
-    window.open(hotelDetailsUrl, '_blank');
-  };
+ 
 
   return (
     <div>
