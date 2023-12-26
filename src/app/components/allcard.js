@@ -16,7 +16,7 @@ const TypeIconMap = {
   tune: <SvgIcon component={TuneIcon} style={{ color: 'gray' }} />,
 }
 
-export default function allcard() {
+export default function Allcard() {
   const [filter, setFilter] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [appliedFilters, setAppliedFilters] = useState({ price: '', location: '', type: '' });

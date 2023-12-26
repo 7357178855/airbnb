@@ -1,4 +1,4 @@
-const dummyData = [
+const DummyData = [
   { 
     "id":"1",
     "name": "Sunrise Hotel",
@@ -593,6 +593,6 @@ const dummyData = [
 ]
 
 //haunted, nationalpark, desert, iconiccities, 
-export default dummyData;
+export default DummyData;
 
 //castle, earthhomes, beachfront, lake, desert, camping, riads, hanoks, treehouse, skiing, boats, caves, iconiccities, farms, cabins, arctic, nationalparks

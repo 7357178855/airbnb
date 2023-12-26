@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import React from 'react';
 
-export default function card({ id, name, location, rating, builtYear, availability, chargePerNight,type,imageUrl,bb,cc,dd,ee,onClick }) {
+export default function Card({ id, name, location, rating, builtYear, availability, chargePerNight,type,imageUrl,bb,cc,dd,ee,onClick }) {
     return (
         <div className="fullcard" onClick={onClick}>
         <div className="cardimage">
