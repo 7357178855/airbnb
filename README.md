@@ -1,5 +1,8 @@
+Download zip of the folder.
 
-First put all the files inside one folder.
+Extract it to get all files.
+
+Then put all the files inside one folder.
 
 Then open that folder in vs code.
 
